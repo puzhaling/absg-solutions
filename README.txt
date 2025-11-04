@@ -24,6 +24,16 @@ EASY:
     Checking whether a process is still running (check-whether-process-running.sh)
         Given a process ID (PID) as an argument, this script will check, at user-specified intervals, whether
         the given process is still running.
+    Primes (primes.sh)
+        Print (to stdout) all prime numbers between 60000 and 63000. The output should be nicely
+        formatted in columns.
+    Lottery Numbers (lottery-numbers.sh)
+        One type of lottery involves picking five different numbers, in the range of 1 - 50. Write a script that
+        generates five pseudorandom numbers in this range, with no duplicates. The script will give the
+        option of echoing the numbers to stdout or saving them to a file, along with the date and time the
+        particular number set was generated. (If your script consistently generates winning lottery numbers,
+        then you can retire on the proceeds and leave shell scripting to those of us who have to work for a
+        living.)
         
 INTERMEDIATE:
     Lucky Numbers (lucky-numbers.sh)
@@ -37,6 +47,9 @@ INTERMEDIATE:
         Each password must contain at least two digits.
     
 DIFFICULT:
+    Integer or String (integer-or-string.bash)
+        Write a script function that determines if an argument passed to it is an integer or a string. The
+        function will return TRUE (0) if passed an integer, and FALSE (1) if passed a string. (expr(1) sucks)
     Testing Passwords (testing-passwords.sh)
         Write a script to check and validate passwords. The object is to flag "weak" or easily guessed
         password candidates.
@@ -46,4 +59,4 @@ DIFFICULT:
         - Must contain at least one numeric character
         - Must contain at least one of the following non-alphabetic characters: @, #, $, %, &, *, +, -, =
 
-I apologize for the rude words in the comments to the code.
+I apologize for the rude words in the comments to the code (and commit messages).
