@@ -45,6 +45,14 @@ INTERMEDIATE:
     Generating Passwords (generate-password.sh)
         Generate pseudorandom 8-character passwords, using characters in the ranges [0-9], [A-Z], [a-z].
         Each password must contain at least two digits.
+    Safe Delete (sdel.sh)
+        Implement, as a script, a "safe" delete command, sdel.sh. Filenames passed as command-line
+        arguments to this script are not deleted, but instead gzipped if not already compressed then
+        moved to a ~/TRASH directory. Upon invocation, the script checks the ~/TRASH directory for files
+        older than 48 hours and permanently deletes them.
+    Banner (banner.bash)
+        Simulate the functionality of the deprecated banner command in a script (implementation is currently
+        very limited).
     
 DIFFICULT:
     Integer or String (integer-or-string.bash)
